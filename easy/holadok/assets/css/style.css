@@ -97,12 +97,18 @@
     transform: translate(-600px, -140px);
 }
 
+.img-wrapper .testimony-img {
+    z-index: -9;
+    position: absolute;
+    transform: translate(-750px, 0);
+}
+
 /* Features */
 
 .features {
     position: relative;
     z-index: 2;
-    margin: -92px 90px 0 150px;
+    margin: -92px 90px 32px 150px;
     background-color: #203271;
     color: white;
     padding: 40px;
