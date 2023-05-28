@@ -76,6 +76,12 @@
     height: 60px;
     background-color: #203271;
     color: white;
+    border-radius: 12px;
+    border: 0px;
+}
+
+.hero button:hover {
+    background-color: #9BEAE0;
 }
 
 .hero .text-wrapper {
@@ -115,6 +121,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 12px;
 }
 
 .feature-item {
