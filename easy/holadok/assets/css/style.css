@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 150px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.list-1 li {
+    opacity: 0.2;
+}
+
+.list-1 .logo {
+    opacity: 1;
+}
+
+.list-1 .active-item {
+    opacity: 1;
+    font-weight: 700;
+}
+
+.list-2 li {
+    font-weight: 700;
+}
+
+.outline-btn {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 90px 0 150px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    width: 450px;
+    font-weight: 600;
+    color: #101C45;
+    letter-spacing: 0.1rem;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #101C45;
+    width: 450px;
+}
+
+.hero button {
+    margin-top: 40px;
+    width: 235px;
+    height: 60px;
+    background-color: #203271;
+    color: white;
+}
+
+.hero .text-wrapper {
+    width: 50%;
+}
+
+.hero .img-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+.img-wrapper .docter-img {
+    transform: translateY(-88px);
+}
+
+.img-wrapper .decor-img {
+    z-index: -10;
+    position: absolute;
+    transform: translate(-600px, -140px);
+}
+
+/* Features */
+
+.features {
+    position: relative;
+    z-index: 2;
+    margin: -92px 90px 0 150px;
+    background-color: #203271;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature-item {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-item .text-wrapper {
+    width: 300px;
+}
+
+.feature-item p {
+    width: 90%;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.feature-item img {
+    align-self: flex-start;
+}
