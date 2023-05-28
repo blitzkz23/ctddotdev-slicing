@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     gap: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar li {
@@ -57,10 +58,12 @@
 
 .hero h1 {
     font-size: 3rem;
-    width: 450px;
+    width: 480px;
     font-weight: 600;
     color: #101C45;
     letter-spacing: 0.1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
 }
 
 .hero p {
@@ -68,6 +71,8 @@
     margin-top: 15px;
     color: #101C45;
     width: 450px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
 }
 
 .hero button {
@@ -78,6 +83,7 @@
     color: white;
     border-radius: 12px;
     border: 0px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .hero button:hover {
@@ -122,6 +128,7 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 12px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .feature-item {
