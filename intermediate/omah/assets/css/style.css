@@ -80,7 +80,7 @@
 
 .house-filter {
     position: absolute;
-    transform: translateY(50%);
+    transform: translateY(51%);
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -115,4 +115,106 @@
 
 .house-filter button:hover {
     background-color: #E35F0A;
+}
+
+/* House List */
+.house-list {
+    margin: 128px 135px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-top a {
+    color: #1B2021;
+    font-size: 1.5rem;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.category h3 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.category h4 {
+    font-weight: 400;
+    color: #828282;
+    font-size: 1.5rem;
+}
+
+.category-item {
+    display: flex;
+    gap: 40px;
+}
+
+.category .active {
+    color: #F58634;
+}
+
+.card-list {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item h4 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #1B2021;
+}
+
+.card-item p {
+    color: #AAAAAA;
+    font-size: 1rem;
+}
+
+.card-item h5 {
+    color: #F58634;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+
+.img-wrapper p {
+    color: #F58634;
+}
+
+.img-wrapper img {
+    max-width: 370px;
+    max-height: 350px;
+}
+
+.room-detail {
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 16px;
+}
+
+.img-wrapper .btn-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 24px;
 }

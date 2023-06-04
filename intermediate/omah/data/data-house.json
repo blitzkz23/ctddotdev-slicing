@@ -1,0 +1,39 @@
+[
+    {
+        "id": 0,
+        "name": "Orange House",
+        "address": "Jl Klapanunggal, cileungsi, bogor",
+        "price": "$1,435,000",
+        "room_num": 3,
+        "img_url": "./assets/img/house-img1.png",
+        "icon": "./assets/img/like.svg"
+    },
+    {
+        "id": 1,
+        "name": "White House",
+        "address": "Jl Klapanunggal, cileungsi, bogor",
+        "price": "$1,200,500",
+        "room_num": 2,
+        "img_url": "./assets/img/house-img2.png",
+        "icon": "./assets/img/like.svg"
+    },
+    {
+        "id": 3,
+        "name": "Green House",
+        "address": "Jl Klapanunggal, cileungsi, bogor",
+        "price": "$2,305,000",
+        "room_num": 6,
+        "img_url": "./assets/img/house-img3.png",
+        "icon": "./assets/img/like.svg"
+    },
+    {
+        "id": 4,
+        "name": "Brown House",
+        "address": "Jl Klapanunggal, cileungsi, bogor",
+        "price": "$2,125,000",
+        "room_num": 5,
+        "img_url": "./assets/img/house-img4.png",
+        "icon": "./assets/img/like.svg"
+
+    }
+]
