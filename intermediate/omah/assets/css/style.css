@@ -218,3 +218,34 @@
     right: 0;
     margin: 24px;
 }
+
+/* Testimonial */
+.testimonial {
+    margin: 0 135px;
+}
+
+.testimonial h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.testimony-gallery {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.testimony-gallery img {
+    max-width: 570px;
+}
+
+.testimony-gallery .testimony {
+    margin-top: 32px;
+    max-width: 324px;
+}
+
+.testimony-by {
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 16px;
+}

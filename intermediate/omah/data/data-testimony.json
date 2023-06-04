@@ -1,0 +1,17 @@
+[
+    {
+        "user": "Jane Doe",
+        "img_url": "./assets/img/woman1.png",
+        "testimony": "I am very satisfied buying a house here because it is fast and easy"
+    },
+    {
+        "user": "Angel Doe",
+        "img_url": "./assets/img/woman2.png",
+        "testimony": "Buying a house here is very cheap and high quality"
+    },
+    {
+        "user": "Jane Doe",
+        "img_url": "./assets/img/woman3.png",
+        "testimony": "Lorem Ipsum dolor sit sit pong dele kopong"
+    }
+]
